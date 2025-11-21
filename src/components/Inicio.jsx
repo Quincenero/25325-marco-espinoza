@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 
 function Inicio() {
   return (
@@ -14,27 +16,27 @@ function Inicio() {
         <div className="bg-dark bg-opacity-10 p-5 rounded">
           <h1 className="display-4">Bienvenido a EcoMarket</h1>
           <p className="lead">Productos sostenibles para un futuro más verde</p>
-          <a href="/productos" className="btn btn-success btn-lg mt-3">
+          <Link to="/productos" className="btn btn-success btn-lg mt-3">
             Ver productos
-          </a>
+          </Link>
         </div>
       </section>
 
-      <section className="container py-5">
-        <div className="row text-center align-items-center">
+      <section className="container py-5 ">
+        <div className="row text-center">
           <div className="col-md-4">
-            <i className="bi bi-leaf fs-1 text-success mb-3"></i>
-            <h5>Eco-amigable</h5>
+            <i className="bi bi-tree fs-1 text-success mb-3"></i>
+            <h3>Eco-amigable</h3>
             <p>Reducimos el impacto ambiental con cada producto que vendemos.</p>
           </div>
           <div className="col-md-4">
             <i className="bi bi-box-seam fs-1 text-success mb-3"></i>
-            <h5>Empaque reciclable</h5>
+            <h3>Empaque reciclable</h3>
             <p>Usamos materiales biodegradables y reciclables en cada envío.</p>
           </div>
           <div className="col-md-4">
             <i className="bi bi-people fs-1 text-success mb-3"></i>
-            <h5>Comercio justo</h5>
+            <h3>Comercio justo</h3>
             <p>Apoyamos a productores locales y prácticas éticas de trabajo.</p>
           </div>
         </div>
