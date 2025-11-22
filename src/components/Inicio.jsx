@@ -26,7 +26,7 @@ function Inicio() {
         <div className="row text-center">
           <div className="col-md-4">
             <i className="bi bi-tree fs-1 text-success mb-3"></i>
-            <h3>Eco-amigable</h3>
+            <h3>Ecologico</h3>
             <p>Reducimos el impacto ambiental con cada producto que vendemos.</p>
           </div>
           <div className="col-md-4">
