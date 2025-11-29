@@ -76,13 +76,13 @@ export default function ContactoForm() {
               />
             </div>
 
-            <button type="submit" className="btn btn-success w-50 mt-3">Enviar</button>
+            <button type="submit" className="btn btn-success w-50 mt-3 d-block mx-auto">Enviar</button>
           </form>
         </div>
 
         {/* Dirección */}
         <div className="col-md-6">
-          <h5 className="mb-3">Nuestra dirección</h5>
+          <h5 className="mb-3 mt-5">Nuestra dirección</h5>
           <p>
             EcoMarket<br />
             Av. Corrientes 3250<br />

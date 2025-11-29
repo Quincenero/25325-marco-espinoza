@@ -8,7 +8,7 @@ function Footer() {
         <div className="row">
           <div className="col-md-4 mb-3 ">
             <h5>EcoMarket</h5>
-            <p>Tu plataforma favorita para aprender y explorar.</p>
+            <p>Tu tienda online favorita.</p>
           </div>
 
           <div className="col-md-4 mb-3">

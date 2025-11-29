@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
-import ProductCard from "./ProductCard.jsx";
-import { API_URL } from "../api/api.js";
-import CategoryFilter from "./CategoryFilter.jsx";
+import { API_URL } from "../api/products.js";
+import ProductCard from "../components/ProductCard.jsx";
+import CategoryFilter from "../components/CategoryFilter.jsx";
 
 function ProductList(){
     const [productos, setProductos] = useState([]);

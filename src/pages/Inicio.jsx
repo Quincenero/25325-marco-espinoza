@@ -45,4 +45,4 @@ function Inicio() {
   )
 }
 
-export default Inicio
+export default Inicio;
